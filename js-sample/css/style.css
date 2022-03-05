@@ -13,3 +13,32 @@ body {
     background-color: purple;
     color: darkgray;
 }
+.nav ul li{
+    display: flex;
+    float: right;
+    text-align: center;
+    font-size: 17px;
+    list-style-type: none;
+    text-align: center;
+
+}
+.nav ul {
+    display: flex;
+    color: darkgrey;
+}
+.nav a {
+    margin: 1rem 2rem;
+    padding: 0px;
+    display: flex;
+    text-decoration: solid;
+    text-decoration-color: darkgray;
+    list-style-type: none;
+    float: right;
+    text-align: center;
+    font-size: 17px;
+}
+.image {
+    display: flex;
+    float: left;
+    border-radius: 5o%;
+}
