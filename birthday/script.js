@@ -11,3 +11,10 @@ function displayDay(){
     var day = document.getElementById("day").value;
     alert(day);
 }
+function displaySelect() {
+    var mySelect = document.getElementById("mySelect").form.id;
+    alert (mySelect);
+}
+let displayAkan = document.querrySelector("akanname")
+
+var akanName = compareNames(year,month,date,gender)
